@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+  - export DEPLOYPATH=/home/usercpanel/public_html/review-produk-new1
+  - /bin/cp -r * $DEPLOYPATH
